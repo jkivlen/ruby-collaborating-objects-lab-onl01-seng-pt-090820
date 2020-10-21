@@ -26,6 +26,7 @@ class Artist
       if self.all.find do |artist|
         artist.name == name
         end
+        self.name
       else
         self.new(name)
       end
