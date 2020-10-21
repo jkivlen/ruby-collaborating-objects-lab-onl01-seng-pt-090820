@@ -28,7 +28,8 @@ class Artist
       end
         artist.name
       else
-        
+        self.new(name)
+      end
     
   end
   
