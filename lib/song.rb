@@ -13,7 +13,7 @@ class Song
   end
   
   def self.new_by_filename(filename)
-    binding.pray
+    binding.pry
     
     
   end
